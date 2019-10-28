@@ -10,32 +10,25 @@ h1 {
   	text-align: center;
 
 }
-.navigation{
+nav{
 	background-color: #075868;
   	text-align: center;
   	border: 3px solid green;
 	display: block;
 	color: white;
 }
-.navigation ul{
+nav a{
 	list-style-type: none;	
 	margin: 0;
-	padding: 0;
  	text-align: center;
        	display: inline-block;
-}
-.navigation li{
-	float: left;
-}
-.navigation li a {
-	display: block;
-  	color: white;
-  	text-align: center;
+	color: white;
   	padding: 16px;
   	text-decoration: none;
 }
 
-.navigation li a:hover {
+
+nav a:hover {
 	background-color: #111111;
 }
 
